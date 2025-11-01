@@ -42,8 +42,8 @@ export default function App() {
                 className="w-3/4 h-3/4 object-contain"
               />
             ) : (
-              <span
-                className="text-[7rem] sm:text-[8rem] md:text-[9rem] leading-none select-none animate-fade-in"
+              <div
+                className="flex flex-col items-center justify-center leading-none select-none animate-fade-in"
                 style={{
                   fontFamily: "'Noto Serif SC', 'ZCOOL XiaoWei', 'STSong', serif",
                   color: '#F2E8C6'
@@ -51,8 +51,15 @@ export default function App() {
                 aria-label="token symbol"
                 title={CONFIG.name}
               >
-                {CONFIG.glyph}
-              </span>
+                {CONFIG.glyph.split('').map((char, index) => (
+                  <span 
+                    key={index}
+                    style={{ fontSize: '6rem' }}
+                  >
+                    {char}
+                  </span>
+                ))}
+              </div>
             )}
           </div>
 
