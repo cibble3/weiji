@@ -7,7 +7,7 @@ const CONFIG = {
   name: "危机",
   ticker: "$WEIJI",
   tagline: "Crisis creates opportunity — weiji on-chain.",
-  contract: "0x000000000000000000000000000000000000cA0", // ← replace with real
+  contract: "0xe576aee206e9355d528459fb55510b2131254444",
   symbolImage: null, // Using glyph instead
   glyph: "危机",
 };
