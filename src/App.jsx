@@ -8,7 +8,7 @@ const CONFIG = {
   ticker: "$WEIJI",
   // Cleaner, higher-status, less explanatory:
   tagline: "Opportunity in crisis.",
-  contract: "0xUpDateThisHere",
+  contract: "0xe71bab6f1a82e04bd893223b482edc3be7564444",
   symbolImage: null, // Using glyph instead
   glyph: "危机",
 };
